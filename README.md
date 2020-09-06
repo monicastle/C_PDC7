@@ -20,8 +20,10 @@ Punto de Control #07 en **C++** diseñado para demostrar:
    - **Herencia**
    - **Polimorfismo**
    - **Templates**
-2. :books: La implementación y mejora de:
-   - La visibilidad de lo que es la herencia y el polimorfismo
+2. :books: La visibilidad en:
+   - **Private**
+   - **Public**
+   - **Protected**
 3. :open_file_folder:La organización de:
    - Código (**Visual Studio Code** y Repositorio en **Github**)
    - Imágenes (Extensión **Polacode** de **VSC**)
