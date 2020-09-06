@@ -29,7 +29,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 
 ---
 
-## :purple_circle: Ejemplo Herencia
+## :black_large_square: Ejemplo Herencia
 
 ## :yellow_circle: Herencia.cpp
 
@@ -60,7 +60,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 ![](Images/MaestroHPP.png)
 
 ---
-## :purple_circle: Ejemplo Polimorfismo
+## :black_large_square: Ejemplo Polimorfismo
 
 ## :orange_circle: Polimorfismo.cpp
 
@@ -92,7 +92,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 
 ---
 
-## :purple_circle: Ejemplo Templates
+## :black_large_square: Ejemplo Templates
 
 ## :red_circle: Templates.cpp
 
@@ -121,6 +121,46 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 ## :red_circle: MiClases.hpp
 
 ![](Images/MiClasesHPP.png)
+
+---
+
+## :black_large_square: Ejemplo Visibildad Public | Private | Protected
+
+## :purple_circle: ADN.cpp
+
+![](Images/ADNCPP.png)
+
+## :purple_circle: Humano.cpp
+
+![](Images/HumanoCPP.png)
+
+## :purple_circle: Humano.hpp
+
+![](Images/HumanoHPP.png)
+
+## :purple_circle: Animal.cpp
+
+![](Images/AnimalCPP.png)
+
+## :purple_circle: Animal.hpp
+
+![](Images/AnimalHPP.png)
+
+## :purple_circle: Organismo.cpp
+
+![](Images/OrganismoCPP.png)
+
+## :purple_circle: Organismo.hpp
+
+![](Images/OrganismoHPP.png)
+
+## :purple_circle: Microorganismo.cpp
+
+![](Images/MicroorganismoCPP.png)
+
+## :purple_circle: Microorganismo.hpp
+
+![](Images/MicroorganismoHPP.png)
 
 ---
 
