@@ -6,7 +6,7 @@
 - :woman: **Mónica Valeria Castillo**
 - :e-mail: monicastillo@unitec.edu
 - :link: [github.com/monicastle](https://github.com/monicastle)
-- :calendar: 30/08/2020
+- :calendar: 06/09/2020
 
 ---
 
