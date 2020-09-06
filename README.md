@@ -14,15 +14,14 @@
 
 ![](Images/1C++.png)
 
-Punto de Control #06 en **C++** diseñado para demostrar:
+Punto de Control #07 en **C++** diseñado para demostrar:
 
-1. :nut_and_bolt: La diferencia en el uso de:
-   - **static_cast**
-   - **dynamic_cast**
+1. :nut_and_bolt: El manejo de:
+   - **Herencia**
+   - **Polimorfismo**
+   - **Templates**
 2. :books: La implementación y mejora de:
-    - **Funciones Virtuales** 
-    - **Typeid**
-    - **Sobrecarga de Operadores**
+   - La visibilidad de lo que es la herencia y el polimorfismo
 3. :open_file_folder:La organización de:
    - Código (**Visual Studio Code** y Repositorio en **Github**)
    - Imágenes (Extensión **Polacode** de **VSC**)
@@ -30,115 +29,104 @@ Punto de Control #06 en **C++** diseñado para demostrar:
 
 ---
 
-## :black_circle: Static_Cast
+## :dart: Ejemplo Herencia
 
-![](Images/Static_Cast.png)
+## :yellow_circle: Herencia.cpp
 
-Este programa utiliza el static_cast para obtener el valor de una variable, dependiendo del casteo. 
+![](Images/HerenciaCPP.png)
 
-## :small_blue_diamond: Salida - Static_Cast
+## :yellow_circle: Persona.cpp
 
-![](Images/Salida-Static_Cast.jpeg)
+![](Images/PersonaCPP.png)
 
-La salida es el valor de 3 diferentes tipos de variables (char, int y float), los cuales se castean a el valor deseado e imprimiendo dicho valor.
+## :yellow_circle: Persona.hpp
+
+![](Images/PersonaHPP.png)
+
+## :yellow_circle: Alumno.cpp
+
+![](Images/AlumnoCPP.png)
+
+## :yellow_circle: Alumno.hpp
+
+![](Images/AlumnoHPP.png)
+
+## :yellow_circle: Maestro.cpp
+
+![](Images/MaestroCPP.png)
+
+## :yellow_circle: Maestro.hpp
+
+![](Images/MaestroHPP.png)
+
+---
+## :dart: Ejemplo Polimorfismo
+
+## :orange_circle: Polimorfismo.cpp
+
+![](Images/PolimorfismoCPP.png)
+
+## :orange_circle: Polimorfismo_Persona.cpp
+
+![](Images/PolimorfismoPersonaCPP.png)
+
+## :orange_circle: Polimorfismo_Persona.hpp
+
+![](Images/PolimorfismoPersonaHPP.png)
+
+## :orange_circle: Polimorfismo_Alumno.cpp
+
+![](Images/PolimorfismoAlumnoCPP.png)
+
+## :orange_circle: Polimorfismo_Alumno.hpp
+
+![](Images/PolimorfismoAlumnoHPP.png)
+
+## :orange_circle: Polimorfismo_Maestro.cpp
+
+![](Images/PolimorfismoMaestroCPP.png)
+
+## :orange_circle: Polimorfismo_Maestro.hpp
+
+![](Images/PolimorfismoMaestroHPP.png)
 
 ---
 
-## :brown_circle: Static_Cast vs Dynamic_Cast 1/3
+## :dart: Ejemplo Templates
 
-![](Images/Static_CastvsDynamic_Cast1.png)
+## :red_circle: Templates.cpp
 
-Este programa intenta utilizar el static_cast para castear una variable en una clase. Se puede notar que un caso funciona y el otro no compila, esto es debido a que la variable X no es clase madre ni hija a diferencia que la variable B, por lo que al ser madre de la clase D si es posible castearse. 
+![](Images/TemplatesCPP.png)
 
-## :small_blue_diamond: Salida - Static_Cast vs Dynamic_Cast 1/3
+## :red_circle: Pila.hpp
 
-![](Images/Salida-STvsDC1.jpeg)
+![](Images/PilaHPP.png)
 
-Al no poder compilarse muestra que el casteo es invalido y no puede ser realizado.
+## :red_circle: Cadenas.hpp
 
----
+![](Images/CadenasHPP.png)
 
-## :purple_circle: Static_Cast vs Dynamic_Cast 2/3
+## :red_circle: Dobles.cpp
 
-![](Images/Static_CastvsDynamic_Cast2.png)
+![](Images/DoblesHPP.png)
 
-Este programa intenta utilizar el dynamic_cast para castear una variable en una clase, pero debido a que el dynamic_cast se utiliza mas que todo para el polimorfismo no permite hacer el casteo.
+## :red_circle: Enteros.hpp
 
-## :small_blue_diamond: Salida - Static_Cast vs Dynamic_Cast 2/3
+![](Images/EnterosHPP.png)
 
-![](Images/Salida-STvsDC2.jpeg)
+## :red_circle: MiClase.cpp
 
-Al no poder compilarse muestra que el casteo no puede ser realizado, ya que el tipo de fuente no es polimorfico.
+![](Images/MiClaseHPP.png)
 
----
+## :red_circle: MiClases.hpp
 
-## :yellow_circle: Static_Cast vs Dynamic_Cast 3/3
-
-![](Images/Static_CastvsDynamic_Cast3.png)
-
-Este programa intenta utilizar el dynamic_cast para castear una variable en una clase, al tener una función virtual permite que el programa se compile correctamente. No cuenta con una salida.
-
----
-
-##  :orange_circle:  Funciones Virtuales
-
-![](Images/FuncionesVirtuales.png)
-
-Este programa utiliza las funciones virtuales, las cuales se declaran dentro de una clase base y se sobreescriben por una clase derivada.
-
-## :small_blue_diamond: Salida - Funciones Virtuales
-
-![](Images/Salida-FuncionesVirtuales.jpeg)
-
-La salida del programa muestra lo que imprimen las diferentes funciones virtuales "fun".
-
----
-
-## :green_circle: Typeid
-
-![](Images/Typeid.png)
-
-Este programa utiliza el Typeid para obtener un tipo de variable (char, string, int, double, float, etc.) o el nombre ese tipo utilizando el .name.
-
-## :small_blue_diamond: Salida - Typeid
-
-![](Images/Salida-Typeid.jpeg)
-
-La salida muestra el nombre de las diferentes variables usando el typeid, tambien hace la comparación entre un string y una variable de tipo string.
-
----
-
-## :large_blue_circle: Sobrecarga de Operadores 1
-
-![](Images/SobrecargadeOperadores1.png)
-
-Este programa utiliza la sobrecarga de operadores, con los siguientes operadores "<<" y ">>".
-
-## :small_blue_diamond: Salida - Sobrecarga de Operadores 1
-
-![](Images/Salida-SDO1.jpeg)
-
-La salida consiste en ingresar un número telefonico de la siguiente manera: (504) ####-####, e imprime dicho número con la sobrecarga de operadores.
-
----
-
-## :red_circle: Sobrecarga de Operadores 2
-
-![](Images/SobrecargadeOperadores2.png)
-
-Este programa utiliza la sobrecarga de operadores, con los siguientes operadores "++" y "--".
-
-## :small_blue_diamond: Salida - Sobrecarga de Operadores 2
-
-![](Images/Salida-SDO2.jpeg)
-
-
+![](Images/MiClasesHPP.png)
 
 ---
 
 ## :computer: Código
 
-- :blue_book: [C_PDC_06](https://github.com/monicastle/C_PDC_06)
+- :blue_book: [C_PDC7](https://github.com/monicastle/C_PDC7)
 
 ---
 ## :wrench: Herramientas
