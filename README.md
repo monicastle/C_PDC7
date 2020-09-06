@@ -29,7 +29,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 
 ---
 
-## :dart: Ejemplo Herencia
+## :purple_circle: Ejemplo Herencia
 
 ## :yellow_circle: Herencia.cpp
 
@@ -60,7 +60,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 ![](Images/MaestroHPP.png)
 
 ---
-## :dart: Ejemplo Polimorfismo
+## :purple_circle: Ejemplo Polimorfismo
 
 ## :orange_circle: Polimorfismo.cpp
 
@@ -92,7 +92,7 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 
 ---
 
-## :dart: Ejemplo Templates
+## :purple_circle: Ejemplo Templates
 
 ## :red_circle: Templates.cpp
 
