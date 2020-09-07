@@ -92,6 +92,12 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 
 ![](Images/PolimorfismoMaestroHPP.png)
 
+## :orange_circle: Salida
+
+![](Images/SalidaPolimorfismo.jpeg)
+
+El ejercicio consistia en que la clase persona tuviera un metodo polimorfico el cual se usaria para los alumnos y empleados. En la salida se imprimen los datos de los empleados y alumnos.
+
 ---
 
 ## :black_large_square: Ejemplo Templates
@@ -123,6 +129,12 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 ## :red_circle: MiClases.hpp
 
 ![](Images/MiClasesHPP.png)
+
+## :red_circle: Salida
+
+![](Images/SalidaTemplates.jpeg)
+
+El ejercicio consistia en utilizar templates para insertar y extraer datos de 4 diferentes tipos de datos (double, int, string y MiClase). La salida hace la inserción y extracción de los 4 datos y se muestran en la salida.
 
 ---
 
@@ -163,6 +175,24 @@ Punto de Control #07 en **C++** diseñado para demostrar:
 ## :purple_circle: Microorganismo.hpp
 
 ![](Images/MicroorganismoHPP.png)
+
+---
+
+## :black_large_square: Actividad Templates
+
+## :green_circle: EjercicioTemplates.cpp
+
+![](Images/TemplatesEjercicioCPP.png)
+
+## :green_circle: Tipos.hpp
+
+![](Images/TiposHPP.png)
+
+## :green_circle: Salida
+
+![](Images/SalidaEjercicioTemplates.jpeg)
+
+El ejercicio consistia en unificar las clases Cadenas.hpp, Enteros.hpp, Dobles.hpp y MiClase.hpp en una sola clase llamada Tipos.hpp. En dicha clase esta el metodo "Tipos", que dependiendo de el tipo deseado imprime dicha salida.
 
 ---
 
